@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Popping, sans-serif;
+}
+
+.wrap {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.principal {
+    background-color: #fb5f77;
+    border-top: 20px solid #c54659;
+
+    width: 100%;
+    padding: 50px 0;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario input[type="text"] {
+    color: rgba(0, 0, 0, .8);
+    border: 2px solid #fff;
+    font-size: 16px;
+    outline: none;
+
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.formulario input[type="text"].error {
+    color: red;
+    border: 2px solid red;
+}
+
+.formulario input[type="button"] {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+
+    display: inline-blocK;
+    padding: 10px 20px;
+
+    transition: all 200ms;
+}
+
+.formulario input[type="button"]:hover {
+    background-color: #f3d384;
+    color: #fb5f77;
+    border: 2px solid #fb5f77;
+}
+
+.tareas .lista {
+    list-style: none;
+}
+
+.lista li {
+    border-bottom: 2px solid #222;
+
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.tareas .lista li a {
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
+    user-select: none;
+
+    display: block;
+    padding: 20px 0;
+
+    transition: all 300ms;
+}
+
+.lista li a:hover {
+    text-decoration: line-through;
+    color: #fb5f77;
+}
